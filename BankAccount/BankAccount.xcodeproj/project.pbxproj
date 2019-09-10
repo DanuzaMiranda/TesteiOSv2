@@ -17,6 +17,11 @@
 		F5CEE2EC232041A1008107DF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE2EA232041A1008107DF /* LoginViewController.xib */; };
 		F5CEE2F823206396008107DF /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CEE2F623206396008107DF /* AccountDetailViewController.swift */; };
 		F5CEE2FB23206AE8008107DF /* AccountDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE2FA23206AE8008107DF /* AccountDetailViewController.xib */; };
+		F5CEE2FD2326A3EB008107DF /* AccountCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE2FC2326A3EB008107DF /* AccountCellView.xib */; };
+		F5CEE2FF2326A75E008107DF /* BalanceCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE2FE2326A75E008107DF /* BalanceCellView.xib */; };
+		F5CEE3012326A975008107DF /* HeaderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE3002326A975008107DF /* HeaderTableView.xib */; };
+		F5CEE3032326ABCA008107DF /* TransactionCellTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE3022326ABCA008107DF /* TransactionCellTableView.xib */; };
+		F5CEE3052326B32B008107DF /* StackTitleTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CEE3042326B32B008107DF /* StackTitleTableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		F5CEE2EA232041A1008107DF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		F5CEE2F623206396008107DF /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
 		F5CEE2FA23206AE8008107DF /* AccountDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailViewController.xib; sourceTree = "<group>"; };
+		F5CEE2FC2326A3EB008107DF /* AccountCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCellView.xib; sourceTree = "<group>"; };
+		F5CEE2FE2326A75E008107DF /* BalanceCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BalanceCellView.xib; sourceTree = "<group>"; };
+		F5CEE3002326A975008107DF /* HeaderTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableView.xib; sourceTree = "<group>"; };
+		F5CEE3022326ABCA008107DF /* TransactionCellTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCellTableView.xib; sourceTree = "<group>"; };
+		F5CEE3042326B32B008107DF /* StackTitleTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackTitleTableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				F5CEE2FA23206AE8008107DF /* AccountDetailViewController.xib */,
+				F5CEE2FC2326A3EB008107DF /* AccountCellView.xib */,
+				F5CEE2FE2326A75E008107DF /* BalanceCellView.xib */,
+				F5CEE3042326B32B008107DF /* StackTitleTableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -156,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				F5CEE2EA232041A1008107DF /* LoginViewController.xib */,
+				F5CEE3002326A975008107DF /* HeaderTableView.xib */,
+				F5CEE3022326ABCA008107DF /* TransactionCellTableView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,11 +276,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CEE3012326A975008107DF /* HeaderTableView.xib in Resources */,
 				F5CEE2FB23206AE8008107DF /* AccountDetailViewController.xib in Resources */,
 				F5CEE2EC232041A1008107DF /* LoginViewController.xib in Resources */,
 				F550ADAA231DB6FC00E8406D /* LaunchScreen.storyboard in Resources */,
 				F550ADA7231DB6FC00E8406D /* Assets.xcassets in Resources */,
+				F5CEE3032326ABCA008107DF /* TransactionCellTableView.xib in Resources */,
 				F550ADA5231DB6FB00E8406D /* Main.storyboard in Resources */,
+				F5CEE3052326B32B008107DF /* StackTitleTableView.xib in Resources */,
+				F5CEE2FD2326A3EB008107DF /* AccountCellView.xib in Resources */,
+				F5CEE2FF2326A75E008107DF /* BalanceCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
